@@ -122,9 +122,7 @@ recipes = {
             "price": 0
         }
     }
-}
 
-    
     "Tartelettes 10": {
 
         "Crème pâtissière": {
@@ -142,8 +140,8 @@ recipes = {
             "Mascarpone": {"qty": 250, "unit": "g", "price": 2.20},
             "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
             "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
-        },
-    },
+        }
+    }
 
     "Muffins chorizo poivrons": {
 
