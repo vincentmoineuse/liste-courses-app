@@ -8,7 +8,7 @@ recipes = {
 
     "Cake poulet curry": {
         "Farine": {"qty": 200, "unit": "g", "price": 0.30},
-        "Levure chimique": {qty": 1, "unit": "sachet", "price": 0.15},
+        "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
         "Œufs": {"qty": 3, "unit": "pcs", "price": 0.75},
         "Lait": {"qty": 100, "unit": "ml", "price": 0.12},
         "Huile": {"qty": 80, "unit": "ml", "price": 0.25},
