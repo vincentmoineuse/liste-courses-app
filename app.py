@@ -7,7 +7,6 @@ import streamlit as st
 recipes = {
 
     "Cake poulet curry": {
-
         "Farine": {"qty": 200, "unit": "g", "price": 0.30},
         "Levure chimique": {qty": 1, "unit": "sachet", "price": 0.15},
         "Œufs": {"qty": 3, "unit": "pcs", "price": 0.75},
@@ -21,313 +20,72 @@ recipes = {
     },
 
     "Cake jambon champignons": {
+    "Farine": {"qty": 200, "unit": "g", "price": 0.30},
+    "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
+    "Œufs": {"qty": 3, "unit": "pcs", "price": 0.75},
+    "Lait": {"qty": 100, "unit": "ml", "price": 0.12},
+    "Huile": {"qty": 80, "unit": "ml", "price": 0.25},
+    "Jambon": {"qty": 150, "unit": "g", "price": 2.00},
+    "Champignons": {"qty": 150, "unit": "g", "price": 1.50},
+    "Fromage râpé": {"qty": 100, "unit": "g", "price": 1.00},
+    "Sel": {"qty": 1, "unit": "pincée", "price": 0.02},
+    "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
+},
 
-        "Farine": {
-            "qty": 200,
-            "unit": "g",
-            "price": 0.30
-        },
+"Cake chorizo poivrons": {
+    "Farine": {"qty": 200, "unit": "g", "price": 0.30},
+    "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
+    "Œufs": {"qty": 3, "unit": "pcs", "price": 0.75},
+    "Lait": {"qty": 100, "unit": "ml", "price": 0.12},
+    "Huile": {"qty": 80, "unit": "ml", "price": 0.25},
+    "Chorizo": {"qty": 150, "unit": "g", "price": 2.50},
+    "Poivrons": {"qty": 1, "unit": "pcs", "price": 0.80},
+    "Fromage râpé": {"qty": 100, "unit": "g", "price": 1.00},
+    "Sel": {"qty": 1, "unit": "pincée", "price": 0.02},
+    "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
+},
 
-        "Levure chimique": {
-            "qty": 1,
-            "unit": "sachet",
-            "price": 0.15
-        },
+"Cake thon olives": {
+    "Farine": {"qty": 200, "unit": "g", "price": 0.30},
+    "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
+    "Œufs": {"qty": 3, "unit": "pcs", "price": 0.75},
+    "Lait": {"qty": 100, "unit": "ml", "price": 0.12},
+    "Huile": {"qty": 80, "unit": "ml", "price": 0.25},
+    "Thon": {"qty": 140, "unit": "g", "price": 2.00},
+    "Olives vertes": {"qty": 100, "unit": "g", "price": 1.20},
+    "Fromage râpé": {"qty": 100, "unit": "g", "price": 1.00},
+    "Sel": {"qty": 1, "unit": "pincée", "price": 0.02},
+    "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
+},
 
-        "Œufs": {
-            "qty": 3,
-            "unit": "pcs",
-            "price": 0.75
-        },
+"Mini burger bœuf": {
+    "Mini buns": {"qty": 9, "unit": "pièce", "price": 0},
+    "Sauce burger": {"qty": 90, "unit": "g", "price": 0},
+    "Cornichons": {"qty": 9, "unit": "rondelle", "price": 0},
+    "Salade": {"qty": 90, "unit": "g", "price": 0},
+    "Steak de bœuf": {"qty": 180, "unit": "g", "price": 0},
+    "Oignons frits": {"qty": 45, "unit": "g", "price": 0},
+    "Cheddar": {"qty": 2.25, "unit": "tranche", "price": 0}
+},
 
-        "Lait": {
-            "qty": 100,
-            "unit": "ml",
-            "price": 0.12
-        },
+"Mini burger poulet": {
+    "Mini buns": {"qty": 9, "unit": "pièce", "price": 0},
+    "Sauce burger": {"qty": 90, "unit": "g", "price": 0},
+    "Cornichons": {"qty": 9, "unit": "rondelle", "price": 0},
+    "Salade": {"qty": 90, "unit": "g", "price": 0},
+    "Nuggets": {"qty": 9, "unit": "pièce", "price": 0},
+    "Oignons frits": {"qty": 45, "unit": "g", "price": 0},
+    "Cheddar": {"qty": 2.25, "unit": "tranche", "price": 0}
+},
 
-        "Huile": {
-            "qty": 80,
-            "unit": "ml",
-            "price": 0.25
-        },
-
-        "Jambon": {
-            "qty": 150,
-            "unit": "g",
-            "price": 2.00
-        },
-
-        "Champignons": {
-            "qty": 150,
-            "unit": "g",
-            "price": 1.50
-        },
-
-        "Fromage râpé": {
-            "qty": 100,
-            "unit": "g",
-            "price": 1.00
-        },
-
-        "Sel": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.02
-        },
-
-        "Poivre": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.05
-        }
-    },
-
-    "Cake chorizo poivrons": {
-
-        "Farine": {
-            "qty": 200,
-            "unit": "g",
-            "price": 0.30
-        },
-
-        "Levure chimique": {
-            "qty": 1,
-            "unit": "sachet",
-            "price": 0.15
-        },
-
-        "Œufs": {
-            "qty": 3,
-            "unit": "pcs",
-            "price": 0.75
-        },
-
-        "Lait": {
-            "qty": 100,
-            "unit": "ml",
-            "price": 0.12
-        },
-
-        "Huile": {
-            "qty": 80,
-            "unit": "ml",
-            "price": 0.25
-        },
-
-        "Chorizo": {
-            "qty": 150,
-            "unit": "g",
-            "price": 2.50
-        },
-
-        "Poivrons": {
-            "qty": 1,
-            "unit": "pcs",
-            "price": 0.80
-        },
-
-        "Fromage râpé": {
-            "qty": 100,
-            "unit": "g",
-            "price": 1.00
-        },
-
-        "Sel": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.02
-        },
-
-        "Poivre": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.05
-        }
-    },
-
-    "Cake thon olives": {
-
-        "Farine": {
-            "qty": 200,
-            "unit": "g",
-            "price": 0.30
-        },
-
-        "Levure chimique": {
-            "qty": 1,
-            "unit": "sachet",
-            "price": 0.15
-        },
-
-        "Œufs": {
-            "qty": 3,
-            "unit": "pcs",
-            "price": 0.75
-        },
-
-        "Lait": {
-            "qty": 100,
-            "unit": "ml",
-            "price": 0.12
-        },
-
-        "Huile": {
-            "qty": 80,
-            "unit": "ml",
-            "price": 0.25
-        },
-
-        "Thon": {
-            "qty": 140,
-            "unit": "g",
-            "price": 2.00
-        },
-
-        "Olives vertes": {
-            "qty": 100,
-            "unit": "g",
-            "price": 1.20
-        },
-
-        "Fromage râpé": {
-            "qty": 100,
-            "unit": "g",
-            "price": 1.00
-        },
-
-        "Sel": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.02
-        },
-
-        "Poivre": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.05
-        }
-    },
-    
-    "Mini burger bœuf": {
-
-        "Mini buns": {
-            "qty": 9,
-            "unit": "pièce",
-            "price": 0
-        },
-
-        "Sauce burger": {
-            "qty": 90,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Cornichons": {
-            "qty": 9,
-            "unit": "rondelle",
-            "price": 0
-        },
-
-        "Salade": {
-            "qty": 90,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Steack de bœuf": {
-            "qty": 180,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Oignons frits": {
-            "qty": 45,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Cheddar": {
-            "qty": 2.25,
-            "unit": "tranche",
-            "price": 0
-        }
-    },
-
-    "Mini burger poulet": {
-
-        "Mini buns": {
-            "qty": 9,
-            "unit": "pièce",
-            "price": 0
-        },
-
-        "Sauce burger": {
-            "qty": 90,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Cornichons": {
-            "qty": 9,
-            "unit": "rondelle",
-            "price": 0
-        },
-
-        "Salade": {
-            "qty": 90,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Nuggets": {
-            "qty": 9,
-            "unit": "pièce",
-            "price": 0
-        },
-
-        "Oignons frits": {
-            "qty": 45,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Cheddar": {
-            "qty": 2.25,
-            "unit": "tranche",
-            "price": 0
-        }
-    },
-
-    "Wraps poulet": {
-
-        "Wrap": {
-            "qty": 2.25,
-            "unit": "wrap",
-            "price": 0
-        },
-
-        "Poulet": {
-            "qty": 3,
-            "unit": "pané de poulet",
-            "price": 0
-        },
-
-        "Salade": {
-            "qty": 180,
-            "unit": "g",
-            "price": 0
-        },
-
-        "Sauce frite": {
-            "qty": 90,
-            "unit": "g",
-            "price": 0
-        }
-    },
+"Wraps poulet": {
+    "Wrap": {"qty": 2.25, "unit": "wrap", "price": 0},
+    "Poulet": {"qty": 3, "unit": "pané de poulet", "price": 0},
+    "Salade": {"qty": 180, "unit": "g", "price": 0},
+    "Sauce frite": {"qty": 90, "unit": "g", "price": 0}
+}
 
 "Muffins chorizo poivrons": {
-
         "Farine": {"qty": 300, "unit": "g", "price": 0.45},
         "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
         "Œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
@@ -338,9 +96,7 @@ recipes = {
     },
     
     "Tartelettes 10": {
-
         "Crème pâtissière": {
-
             "Lait entier": {"qty": 500, "unit": "ml", "price": 0.60},
             "Jaunes d’œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
             "Sucre": {"qty": 100, "unit": "g", "price": 0.15},
@@ -350,7 +106,6 @@ recipes = {
         },
 
         "Chantilly mascarpone": {
-
             "Mascarpone": {"qty": 250, "unit": "g", "price": 2.20},
             "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
             "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
@@ -358,7 +113,6 @@ recipes = {
     },
 
     "Gaufres (10 classiques)": {
-
         "Farine": {"qty": 250, "unit": "g", "price": 0.35},
         "Œufs": {"qty": 2, "unit": "pcs", "price": 0.50},
         "Lait": {"qty": 500, "unit": "ml", "price": 0.60},
@@ -367,329 +121,78 @@ recipes = {
     },
     
 "Madeleines Chorizo & Paprika (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Chorizo": {"qty": 20, "unit": "g", "price": 0.23},
+    "Emmental": {"qty": 15, "unit": "g", "price": 0.15}
+},
 
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
+"Madeleines Saumon & Aneth (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Saumon fumé": {"qty": 15, "unit": "g", "price": 0.55},
+    "Aneth": {"qty": 0.25, "unit": "cs", "price": 0.04}
+},
 
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
+"Madeleines Parmesan & Tomate Séchée (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Parmesan": {"qty": 12.5, "unit": "g", "price": 0.23},
+    "Tomates séchées": {"qty": 12.5, "unit": "g", "price": 0.20}
+},
 
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
+"Madeleines Chèvre Miel Noix (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Chèvre frais": {"qty": 17.5, "unit": "g", "price": 0.28},
+    "Miel": {"qty": 0.25, "unit": "cs", "price": 0.05},
+    "Noix": {"qty": 7.5, "unit": "g", "price": 0.13}
+},
 
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
+"Madeleines Jambon Cru & Parmesan (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Jambon cru": {"qty": 15, "unit": "g", "price": 0.33},
+    "Parmesan": {"qty": 12.5, "unit": "g", "price": 0.23}
+},
 
-        "Chorizo": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.23
-        },
+"Madeleines Feta & Olive Noire (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Feta": {"qty": 17.5, "unit": "g", "price": 0.23},
+    "Olives noires": {"qty": 10, "unit": "g", "price": 0.10}
+},
 
-        "Emmental": {
-            "qty": 15,
-            "unit": "g",
-            "price": 0.15
-        }
-    },
+"Madeleines Poulet Curry (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Poulet": {"qty": 17.5, "unit": "g", "price": 0.23},
+    "Curry doux": {"qty": 0.25, "unit": "cc", "price": 0.02}
+},
 
+"Madeleines Poivron & Comté (5 pièces)": {
+    "Farine": {"qty": 25, "unit": "g", "price": 0.03},
+    "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
+    "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
+    "Beurre": {"qty": 20, "unit": "g", "price": 0.18},
+    "Poivron grillé": {"qty": 15, "unit": "g", "price": 0.18},
+    "Comté": {"qty": 15, "unit": "g", "price": 0.28}
+},
 
-    "Madeleines Saumon & Aneth (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Saumon fumé": {
-            "qty": 15,
-            "unit": "g",
-            "price": 0.55
-        },
-
-        "Aneth": {
-            "qty": 0.25,
-            "unit": "cs",
-            "price": 0.04
-        }
-    },
-
-
-    "Madeleines Parmesan & Tomate Séchée (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Parmesan": {
-            "qty": 12.5,
-            "unit": "g",
-            "price": 0.23
-        },
-
-        "Tomates séchées": {
-            "qty": 12.5,
-            "unit": "g",
-            "price": 0.20
-        }
-    },
-
-
-    "Madeleines Chèvre Miel Noix (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Chèvre frais": {
-            "qty": 17.5,
-            "unit": "g",
-            "price": 0.28
-        },
-
-        "Miel": {
-            "qty": 0.25,
-            "unit": "cs",
-            "price": 0.05
-        },
-
-        "Noix": {
-            "qty": 7.5,
-            "unit": "g",
-            "price": 0.13
-        }
-    },
-
-
-    "Madeleines Jambon Cru & Parmesan (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Jambon cru": {
-            "qty": 15,
-            "unit": "g",
-            "price": 0.33
-        },
-
-        "Parmesan": {
-            "qty": 12.5,
-            "unit": "g",
-            "price": 0.23
-        }
-    },
-
-
-    "Madeleines Feta & Olive Noire (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Feta": {
-            "qty": 17.5,
-            "unit": "g",
-            "price": 0.23
-        },
-
-        "Olives noires": {
-            "qty": 10,
-            "unit": "g",
-            "price": 0.10
-        }
-    },
-
-
-    "Madeleines Poulet Curry (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Poulet": {
-            "qty": 17.5,
-            "unit": "g",
-            "price": 0.23
-        },
-
-        "Curry doux": {
-            "qty": 0.25,
-            "unit": "cc",
-            "price": 0.02
-        }
-    },
-
-
-    "Madeleines Poivron & Comté (5 pièces)": {
-
-        "Farine": {
-            "qty": 25,
-            "unit": "g",
-            "price": 0.03
-        },
-
-        "Œufs": {
-            "qty": 0.5,
-            "unit": "pcs",
-            "price": 0.15
-        },
-
-        "Levure": {
-            "qty": 1.25,
-            "unit": "g",
-            "price": 0.01
-        },
-
-        "Beurre": {
-            "qty": 20,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Poivron grillé": {
-            "qty": 15,
-            "unit": "g",
-            "price": 0.18
-        },
-
-        "Comté": {
-            "qty": 15,
-            "unit": "g",
-            "price": 0.28
-        }
-    },
 }
 
 # =========================================================
