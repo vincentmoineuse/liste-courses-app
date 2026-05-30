@@ -6,6 +6,125 @@ import streamlit as st
 
 recipes = {
 
+    "Mini burger bœuf": {
+
+        "Mini buns": {
+            "qty": 9,
+            "unit": "pièce",
+            "price": 0
+        },
+
+        "Sauce burger": {
+            "qty": 90,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Cornichons": {
+            "qty": 9,
+            "unit": "rondelle",
+            "price": 0
+        },
+
+        "Salade": {
+            "qty": 90,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Steack de bœuf": {
+            "qty": 180,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Oignons frits": {
+            "qty": 45,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Cheddar": {
+            "qty": 2.25,
+            "unit": "tranche",
+            "price": 0
+        }
+    },
+
+    "Mini burger poulet": {
+
+        "Mini buns": {
+            "qty": 9,
+            "unit": "pièce",
+            "price": 0
+        },
+
+        "Sauce burger": {
+            "qty": 90,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Cornichons": {
+            "qty": 9,
+            "unit": "rondelle",
+            "price": 0
+        },
+
+        "Salade": {
+            "qty": 90,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Nuggets": {
+            "qty": 9,
+            "unit": "pièce",
+            "price": 0
+        },
+
+        "Oignons frits": {
+            "qty": 45,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Cheddar": {
+            "qty": 2.25,
+            "unit": "tranche",
+            "price": 0
+        }
+    },
+
+    "Wraps poulet": {
+
+        "Wrap": {
+            "qty": 2.25,
+            "unit": "wrap",
+            "price": 0
+        },
+
+        "Poulet": {
+            "qty": 3,
+            "unit": "pané de poulet",
+            "price": 0
+        },
+
+        "Salade": {
+            "qty": 180,
+            "unit": "g",
+            "price": 0
+        },
+
+        "Sauce frite": {
+            "qty": 90,
+            "unit": "g",
+            "price": 0
+        }
+    }
+}
+
+    
     "Tartelettes 10": {
 
         "Crème pâtissière": {
