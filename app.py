@@ -414,6 +414,334 @@ recipes = {
         "Beurre fondu": {"qty": 100, "unit": "g", "price": 1.10},
         "Sucre": {"qty": 40, "unit": "g", "price": 0.08},
     }
+    
+"Madeleines Chorizo & Paprika (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Chorizo": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.23
+        },
+
+        "Emmental": {
+            "qty": 15,
+            "unit": "g",
+            "price": 0.15
+        }
+    },
+
+
+    "Madeleines Saumon & Aneth (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Saumon fumé": {
+            "qty": 15,
+            "unit": "g",
+            "price": 0.55
+        },
+
+        "Aneth": {
+            "qty": 0.25,
+            "unit": "cs",
+            "price": 0.04
+        }
+    },
+
+
+    "Madeleines Parmesan & Tomate Séchée (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Parmesan": {
+            "qty": 12.5,
+            "unit": "g",
+            "price": 0.23
+        },
+
+        "Tomates séchées": {
+            "qty": 12.5,
+            "unit": "g",
+            "price": 0.20
+        }
+    },
+
+
+    "Madeleines Chèvre Miel Noix (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Chèvre frais": {
+            "qty": 17.5,
+            "unit": "g",
+            "price": 0.28
+        },
+
+        "Miel": {
+            "qty": 0.25,
+            "unit": "cs",
+            "price": 0.05
+        },
+
+        "Noix": {
+            "qty": 7.5,
+            "unit": "g",
+            "price": 0.13
+        }
+    },
+
+
+    "Madeleines Jambon Cru & Parmesan (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Jambon cru": {
+            "qty": 15,
+            "unit": "g",
+            "price": 0.33
+        },
+
+        "Parmesan": {
+            "qty": 12.5,
+            "unit": "g",
+            "price": 0.23
+        }
+    },
+
+
+    "Madeleines Feta & Olive Noire (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Feta": {
+            "qty": 17.5,
+            "unit": "g",
+            "price": 0.23
+        },
+
+        "Olives noires": {
+            "qty": 10,
+            "unit": "g",
+            "price": 0.10
+        }
+    },
+
+
+    "Madeleines Poulet Curry (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Poulet": {
+            "qty": 17.5,
+            "unit": "g",
+            "price": 0.23
+        },
+
+        "Curry doux": {
+            "qty": 0.25,
+            "unit": "cc",
+            "price": 0.02
+        }
+    },
+
+
+    "Madeleines Poivron & Comté (5 pièces)": {
+
+        "Farine": {
+            "qty": 25,
+            "unit": "g",
+            "price": 0.03
+        },
+
+        "Œufs": {
+            "qty": 0.5,
+            "unit": "pcs",
+            "price": 0.15
+        },
+
+        "Levure": {
+            "qty": 1.25,
+            "unit": "g",
+            "price": 0.01
+        },
+
+        "Beurre": {
+            "qty": 20,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Poivron grillé": {
+            "qty": 15,
+            "unit": "g",
+            "price": 0.18
+        },
+
+        "Comté": {
+            "qty": 15,
+            "unit": "g",
+            "price": 0.28
+        }
+    },
+}
+
+    
 }
 
 # =========================================================
