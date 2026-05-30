@@ -14,30 +14,10 @@ recipes = {
         "Lait": {"qty": 100, "unit": "ml", "price": 0.12},
         "Huile": {"qty": 80, "unit": "ml", "price": 0.25},
         "Poulet cuit": {"qty": 150, "unit": "g", "price": 2.50},
-
-        "Fromage râpé": {
-            "qty": 100,
-            "unit": "g",
-            "price": 1.00
-        },
-
-        "Curry": {
-            "qty": 2,
-            "unit": "cc",
-            "price": 0.20
-        },
-
-        "Sel": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.02
-        },
-
-        "Poivre": {
-            "qty": 1,
-            "unit": "pincée",
-            "price": 0.05
-        }
+        "Fromage râpé": {"qty": 100, "unit": "g", "price": 1.00},
+        "Curry": {"qty": 2, "unit": "cc", "price": 0.20},
+        "Sel": {"qty": 1, "unit": "pincée", "price": 0.02},
+        "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
     },
 
     "Cake jambon champignons": {
