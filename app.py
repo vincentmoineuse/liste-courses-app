@@ -121,7 +121,7 @@ recipes = {
             "unit": "g",
             "price": 0
         }
-    }
+    },
 
     "Tartelettes 10": {
 
