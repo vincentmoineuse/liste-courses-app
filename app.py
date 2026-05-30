@@ -375,6 +375,17 @@ recipes = {
         }
     },
 
+"Muffins chorizo poivrons": {
+
+        "Farine": {"qty": 300, "unit": "g", "price": 0.45},
+        "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
+        "Œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
+        "Lait": {"qty": 200, "unit": "ml", "price": 0.25},
+        "Huile": {"qty": 100, "unit": "ml", "price": 0.30},
+        "Chorizo": {"qty": 150, "unit": "g", "price": 2.50},
+        "Poivrons": {"qty": 2, "unit": "pcs", "price": 1.50},
+    },
+    
     "Tartelettes 10": {
 
         "Crème pâtissière": {
@@ -393,17 +404,6 @@ recipes = {
             "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
             "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
         }
-    },
-
-    "Muffins chorizo poivrons": {
-
-        "Farine": {"qty": 300, "unit": "g", "price": 0.45},
-        "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
-        "Œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
-        "Lait": {"qty": 200, "unit": "ml", "price": 0.25},
-        "Huile": {"qty": 100, "unit": "ml", "price": 0.30},
-        "Chorizo": {"qty": 150, "unit": "g", "price": 2.50},
-        "Poivrons": {"qty": 2, "unit": "pcs", "price": 1.50},
     },
 
     "Gaufres (10 classiques)": {
