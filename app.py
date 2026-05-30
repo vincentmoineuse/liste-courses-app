@@ -141,7 +141,7 @@ recipes = {
             "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
             "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
         }
-    }
+    },
 
     "Muffins chorizo poivrons": {
 
