@@ -413,7 +413,7 @@ recipes = {
         "Lait": {"qty": 500, "unit": "ml", "price": 0.60},
         "Beurre fondu": {"qty": 100, "unit": "g", "price": 1.10},
         "Sucre": {"qty": 40, "unit": "g", "price": 0.08},
-    }
+    },
     
 "Madeleines Chorizo & Paprika (5 pièces)": {
 
