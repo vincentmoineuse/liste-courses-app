@@ -83,7 +83,7 @@ recipes = {
     "Poulet": {"qty": 3, "unit": "pané de poulet", "price": 0},
     "Salade": {"qty": 180, "unit": "g", "price": 0},
     "Sauce frite": {"qty": 90, "unit": "g", "price": 0}
-}
+},
 
 "Muffins chorizo poivrons": {
         "Farine": {"qty": 300, "unit": "g", "price": 0.45},
