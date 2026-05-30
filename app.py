@@ -6,6 +6,258 @@ import streamlit as st
 
 recipes = {
 
+    "Cake poulet curry": {
+
+        "Farine": {
+            "qty": 200,
+            "unit": "g",
+            "price": 0.30
+        },
+
+        "Levure chimique": {
+            "qty": 1,
+            "unit": "sachet",
+            "price": 0.15
+        },
+
+        "Œufs": {
+            "qty": 3,
+            "unit": "pcs",
+            "price": 0.75
+        },
+
+        "Lait": {
+            "qty": 100,
+            "unit": "ml",
+            "price": 0.12
+        },
+
+        "Huile": {
+            "qty": 80,
+            "unit": "ml",
+            "price": 0.25
+        },
+
+        "Poulet cuit": {
+            "qty": 150,
+            "unit": "g",
+            "price": 2.50
+        },
+
+        "Fromage râpé": {
+            "qty": 100,
+            "unit": "g",
+            "price": 1.00
+        },
+
+        "Curry": {
+            "qty": 2,
+            "unit": "cc",
+            "price": 0.20
+        },
+
+        "Sel": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.02
+        },
+
+        "Poivre": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.05
+        }
+    },
+
+    "Cake jambon champignons": {
+
+        "Farine": {
+            "qty": 200,
+            "unit": "g",
+            "price": 0.30
+        },
+
+        "Levure chimique": {
+            "qty": 1,
+            "unit": "sachet",
+            "price": 0.15
+        },
+
+        "Œufs": {
+            "qty": 3,
+            "unit": "pcs",
+            "price": 0.75
+        },
+
+        "Lait": {
+            "qty": 100,
+            "unit": "ml",
+            "price": 0.12
+        },
+
+        "Huile": {
+            "qty": 80,
+            "unit": "ml",
+            "price": 0.25
+        },
+
+        "Jambon": {
+            "qty": 150,
+            "unit": "g",
+            "price": 2.00
+        },
+
+        "Champignons": {
+            "qty": 150,
+            "unit": "g",
+            "price": 1.50
+        },
+
+        "Fromage râpé": {
+            "qty": 100,
+            "unit": "g",
+            "price": 1.00
+        },
+
+        "Sel": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.02
+        },
+
+        "Poivre": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.05
+        }
+    },
+
+    "Cake chorizo poivrons": {
+
+        "Farine": {
+            "qty": 200,
+            "unit": "g",
+            "price": 0.30
+        },
+
+        "Levure chimique": {
+            "qty": 1,
+            "unit": "sachet",
+            "price": 0.15
+        },
+
+        "Œufs": {
+            "qty": 3,
+            "unit": "pcs",
+            "price": 0.75
+        },
+
+        "Lait": {
+            "qty": 100,
+            "unit": "ml",
+            "price": 0.12
+        },
+
+        "Huile": {
+            "qty": 80,
+            "unit": "ml",
+            "price": 0.25
+        },
+
+        "Chorizo": {
+            "qty": 150,
+            "unit": "g",
+            "price": 2.50
+        },
+
+        "Poivrons": {
+            "qty": 1,
+            "unit": "pcs",
+            "price": 0.80
+        },
+
+        "Fromage râpé": {
+            "qty": 100,
+            "unit": "g",
+            "price": 1.00
+        },
+
+        "Sel": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.02
+        },
+
+        "Poivre": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.05
+        }
+    },
+
+    "Cake thon olives": {
+
+        "Farine": {
+            "qty": 200,
+            "unit": "g",
+            "price": 0.30
+        },
+
+        "Levure chimique": {
+            "qty": 1,
+            "unit": "sachet",
+            "price": 0.15
+        },
+
+        "Œufs": {
+            "qty": 3,
+            "unit": "pcs",
+            "price": 0.75
+        },
+
+        "Lait": {
+            "qty": 100,
+            "unit": "ml",
+            "price": 0.12
+        },
+
+        "Huile": {
+            "qty": 80,
+            "unit": "ml",
+            "price": 0.25
+        },
+
+        "Thon": {
+            "qty": 140,
+            "unit": "g",
+            "price": 2.00
+        },
+
+        "Olives vertes": {
+            "qty": 100,
+            "unit": "g",
+            "price": 1.20
+        },
+
+        "Fromage râpé": {
+            "qty": 100,
+            "unit": "g",
+            "price": 1.00
+        },
+
+        "Sel": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.02
+        },
+
+        "Poivre": {
+            "qty": 1,
+            "unit": "pincée",
+            "price": 0.05
+        }
+    },
+    
     "Mini burger bœuf": {
 
         "Mini buns": {
