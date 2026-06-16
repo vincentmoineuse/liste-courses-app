@@ -119,6 +119,15 @@ recipes = {
         "Beurre fondu": {"qty": 100, "unit": "g", "price": 1.10},
         "Sucre": {"qty": 40, "unit": "g", "price": 0.08},
     },
+
+"Fondants Chocolat (10 pièces)": {
+    "Chocolat noir": {"qty": 273, "unit": "g", "price": 0.00},
+    "Beurre": {"qty": 164, "unit": "g", "price": 0.00},
+    "Sucre": {"qty": 109, "unit": "g", "price": 0.00},
+    "Œufs": {"qty": 4.1, "unit": "pcs", "price": 0.00},
+    "Farine": {"qty": 68, "unit": "g", "price": 0.00},
+    "Sel": {"qty": 1, "unit": "pincée", "price": 0.00}
+},
     
 "Madeleines Chorizo & Paprika (5 pièces)": {
     "Farine": {"qty": 25, "unit": "g", "price": 0.03},
