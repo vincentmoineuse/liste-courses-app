@@ -95,41 +95,7 @@ recipes = {
         "Poivrons": {"qty": 2, "unit": "pcs", "price": 1.50},
     },
     
-    "Tartelettes 10": {
-        "Crème pâtissière": {
-            "Lait entier": {"qty": 500, "unit": "ml", "price": 0.60},
-            "Jaunes d’œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
-            "Sucre": {"qty": 100, "unit": "g", "price": 0.15},
-            "Maïzena": {"qty": 40, "unit": "g", "price": 0.20},
-            "Beurre": {"qty": 30, "unit": "g", "price": 0.35},
-            "Vanille": {"qty": 1, "unit": "cc", "price": 0.50},
-        },
-
-        "Chantilly mascarpone": {
-            "Mascarpone": {"qty": 250, "unit": "g", "price": 2.20},
-            "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
-            "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
-        }
-    },
-
-    "Gaufres (10 classiques)": {
-        "Farine": {"qty": 250, "unit": "g", "price": 0.35},
-        "Œufs": {"qty": 2, "unit": "pcs", "price": 0.50},
-        "Lait": {"qty": 500, "unit": "ml", "price": 0.60},
-        "Beurre fondu": {"qty": 100, "unit": "g", "price": 1.10},
-        "Sucre": {"qty": 40, "unit": "g", "price": 0.08},
-    },
-
-"Fondants Chocolat (10 pièces)": {
-    "Chocolat noir": {"qty": 273, "unit": "g", "price": 0.00},
-    "Beurre": {"qty": 164, "unit": "g", "price": 0.00},
-    "Sucre": {"qty": 109, "unit": "g", "price": 0.00},
-    "Œufs": {"qty": 4.1, "unit": "pcs", "price": 0.00},
-    "Farine": {"qty": 68, "unit": "g", "price": 0.00},
-    "Sel": {"qty": 1, "unit": "pincée", "price": 0.00}
-},
-    
-"Madeleines Chorizo & Paprika (5 pièces)": {
+   "Madeleines Chorizo & Paprika (5 pièces)": {
     "Farine": {"qty": 25, "unit": "g", "price": 0.03},
     "Œufs": {"qty": 0.5, "unit": "pcs", "price": 0.15},
     "Levure": {"qty": 1.25, "unit": "g", "price": 0.01},
@@ -202,6 +168,40 @@ recipes = {
     "Comté": {"qty": 15, "unit": "g", "price": 0.28}
 },
 
+    "Tartelettes 10": {
+        "Crème pâtissière": {
+            "Lait entier": {"qty": 500, "unit": "ml", "price": 0.60},
+            "Jaunes d’œufs": {"qty": 4, "unit": "pcs", "price": 1.00},
+            "Sucre": {"qty": 100, "unit": "g", "price": 0.15},
+            "Maïzena": {"qty": 40, "unit": "g", "price": 0.20},
+            "Beurre": {"qty": 30, "unit": "g", "price": 0.35},
+            "Vanille": {"qty": 1, "unit": "cc", "price": 0.50},
+        },
+
+        "Chantilly mascarpone": {
+            "Mascarpone": {"qty": 250, "unit": "g", "price": 2.20},
+            "Crème liquide entière": {"qty": 400, "unit": "ml", "price": 2.00},
+            "Sucre glace": {"qty": 60, "unit": "g", "price": 0.20},
+        }
+    },
+
+    "Gaufres (10 classiques)": {
+        "Farine": {"qty": 250, "unit": "g", "price": 0.35},
+        "Œufs": {"qty": 2, "unit": "pcs", "price": 0.50},
+        "Lait": {"qty": 500, "unit": "ml", "price": 0.60},
+        "Beurre fondu": {"qty": 100, "unit": "g", "price": 1.10},
+        "Sucre": {"qty": 40, "unit": "g", "price": 0.08},
+    },
+
+"Fondants Chocolat (10 pièces)": {
+    "Chocolat noir": {"qty": 273, "unit": "g", "price": 0.00},
+    "Beurre": {"qty": 164, "unit": "g", "price": 0.00},
+    "Sucre": {"qty": 109, "unit": "g", "price": 0.00},
+    "Œufs": {"qty": 4.1, "unit": "pcs", "price": 0.00},
+    "Farine": {"qty": 68, "unit": "g", "price": 0.00},
+    "Sel": {"qty": 1, "unit": "pincée", "price": 0.00}
+},
+    
 }
 
 # =========================================================
