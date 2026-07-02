@@ -19,6 +19,8 @@ recipes = {
         "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
     },
 
+-----------------------------------------------------------------------
+    
     "Cake jambon champignons": {
     "Farine": {"qty": 200, "unit": "g", "price": 0.30},
     "Levure chimique": {"qty": 1, "unit": "sachet", "price": 0.15},
