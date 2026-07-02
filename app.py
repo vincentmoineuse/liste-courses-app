@@ -6,7 +6,7 @@ import streamlit as st
 
 recipes = {
 
-"Cakes"
+"Cakes" : {
     
     "Cake poulet curry": {
         "Farine": {"qty": 200, "unit": "g", "price": 0.30},
@@ -60,6 +60,8 @@ recipes = {
     "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
 },
 
+}
+    
 "Mini burger bœuf": {
     "Mini buns": {"qty": 9, "unit": "pièce", "price": 0},
     "Sauce burger": {"qty": 90, "unit": "g", "price": 0},
