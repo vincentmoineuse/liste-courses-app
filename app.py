@@ -283,7 +283,7 @@ selected_quantities = {}
 cols = st.columns(3)
 
 for i, recipe in enumerate(recipes.keys()):
-    with cols[i % 2]:
+    with cols[i % 3]:
         selected_quantities[recipe] = st.number_input(
             recipe,
             min_value=0,
