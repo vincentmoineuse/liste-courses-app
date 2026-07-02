@@ -60,7 +60,7 @@ recipes = {
     "Poivre": {"qty": 1, "unit": "pincée", "price": 0.05}
 },
 
-}
+},
     
 "Mini burger bœuf": {
     "Mini buns": {"qty": 9, "unit": "pièce", "price": 0},
