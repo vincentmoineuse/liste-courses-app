@@ -280,10 +280,10 @@ st.subheader("🍽️ Quantité de recettes")
 
 selected_quantities = {}
 
-cols = st.columns(3)
+cols = st.columns(2)
 
 for i, recipe in enumerate(recipes.keys()):
-    with cols[i % 3]:
+    with cols[i % 2]:
         selected_quantities[recipe] = st.number_input(
             recipe,
             min_value=0,
